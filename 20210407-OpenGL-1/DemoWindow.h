@@ -20,6 +20,8 @@ public:
 
 	virtual void setup_gl() override;
 	virtual void render() override;
+	virtual void renderCube(double shiftX, double shiftY, double shiftZ);
+	virtual void renderPyramid();
 	virtual void update() override;
 };
 
